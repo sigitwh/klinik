@@ -23,7 +23,7 @@ klinik/
 </pre>
 
 Tabel pasien
-
+<pre>
 CREATE TABLE `pasien` (
   `id_pasien` bigint(20) NOT NULL,
   `nama_pasien` varchar(100) NOT NULL,
@@ -33,3 +33,4 @@ CREATE TABLE `pasien` (
   `alamat_pasien` varchar(100) NOT NULL,
   `telp_pasien` varchar(20) NOT NULL
 )
+</pre>
