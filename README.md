@@ -1,4 +1,4 @@
-
+<pre>
 klinik/
 ├── modul/
 │   ├── /dokter
@@ -18,3 +18,4 @@ klinik/
 ├── index.php
 ├── kontrol.php
 └── menu.php
+</pre>
