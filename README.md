@@ -1,3 +1,5 @@
+Struktur File
+
 <pre>
 klinik/
 ├── modul/
@@ -19,3 +21,15 @@ klinik/
 ├── kontrol.php
 └── menu.php
 </pre>
+
+Tabel pasien
+
+CREATE TABLE `pasien` (
+  `id_pasien` bigint(20) NOT NULL,
+  `nama_pasien` varchar(100) NOT NULL,
+  `tmp_lhr_pasien` varchar(100) NOT NULL,
+  `tgl_lhr_pasien` date NOT NULL,
+  `jns_kel_pasien` varchar(1) NOT NULL,
+  `alamat_pasien` varchar(100) NOT NULL,
+  `telp_pasien` varchar(20) NOT NULL
+)
