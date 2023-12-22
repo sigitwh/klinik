@@ -3,7 +3,7 @@
     <b>Data Pasien</b>
     <span class="float-end">
         <a href="?m=pasien&a=tambah" class="btn btn-primary">TAMBAH</a>
-        <a href="modul/pasien/pasien.cetak.php" class="btn btn-primary">CETAK</a>
+        <a href="modul/pasien/pasien.cetak.php" class="btn btn-primary" target="_blank">CETAK</a>
     </span> 
     <br>
     <br>
